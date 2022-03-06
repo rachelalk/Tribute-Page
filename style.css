@@ -1,0 +1,64 @@
+body {
+  background-color: pink;
+}
+h1 {
+  font-family: american typewriter;
+  color:green;
+  text-align: center;
+  font-size: 80px;
+}
+h2 {
+  font-family: bradley hand;
+  color:blue;
+  text-align: center;
+  font-size:40px;
+}
+#tribute-info {
+   font-size:22px; 
+  text-align: center;
+}
+main {
+  font-family: monaco;
+  color: purple;
+  text-align: left;
+  font-size:20px;
+  margin: 0px 300px 0px 300px;
+  border: solid;
+  background-color: #D3D3D3 !important;
+
+}
+#image {
+  margin: 20px;
+  width: 50%;
+  height: auto;
+  max-width: 50% ;
+  position: relative;
+  margin: auto;
+  display: block;
+}
+#img-caption {
+  font-family: bradley hand;
+  color:gray;
+  text-align: center;
+  font-size:30px;
+}
+.small-image {
+  width:20%;
+  max-width:20%;
+  height:auto;
+  margin:25px;
+  padding:2px
+
+}
+
+.caption-small {
+  font-family: bradley hand;
+  color:gray;
+  font-size:15px;
+
+}
+
+.lenny-images {
+background-color:#89CFF0;
+  
+}
