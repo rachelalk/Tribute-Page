@@ -1,64 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Work+Sans:wght@100&display=swap');
+
 body {
-  background-color: pink;
+  background-color: #fdfae5;
+  font-family: 'Work Sans', sans-serif;
+  color: #4b6337;
 }
-h1 {
-  font-family: american typewriter;
-  color:green;
-  text-align: center;
+
+ #title {
+  color: #4b6337;
+  font-weight: 1000;
+  text-align: left;
+  margin-left: 20px;
   font-size: 80px;
+  display: block;
+  overflow: auto;
+
 }
-h2 {
-  font-family: bradley hand;
-  color:blue;
-  text-align: center;
+#subtitle {
+  text-align: left;
   font-size:40px;
+  margin-left: 200px;
+  display: block;
+  overflow: auto;
 }
 #tribute-info {
-   font-size:22px; 
+  font-size:22px; 
   text-align: center;
+  font-weight: bold;
 }
 main {
-  font-family: monaco;
-  color: purple;
+  box-sizing: border-box;
+  margin: auto;
+  width: 75%;
   text-align: left;
   font-size:20px;
-  margin: 0px 300px 0px 300px;
   border: solid;
-  background-color: #D3D3D3 !important;
+  background-color: #f5dcc4
 
 }
 #image {
-  margin: 20px;
-  width: 50%;
+  margin: auto;
+  border: solid;
+  border-width: 5px;
+  border-radius: 5%;
+  width: 40%;
   height: auto;
   max-width: 50% ;
   position: relative;
-  margin: auto;
   display: block;
+  overflow: auto;
 }
+
 #img-caption {
-  font-family: bradley hand;
-  color:gray;
+  background-color: #f5dcc4;
   text-align: center;
   font-size:30px;
+  border: solid;
+  border-width: 2px;
+  width: 60%;
+  display: block;
+  margin: auto;;
+  padding: 2px;
+ 
 }
 .small-image {
-  width:20%;
-  max-width:20%;
-  height:auto;
-  margin:25px;
-  padding:2px
-
-}
-
-.caption-small {
-  font-family: bradley hand;
-  color:gray;
-  font-size:15px;
-
+  height: 350px;
+  width: 230px;
+  border: solid;
+  border-color: #4b6337;
+  border-width: 1px;
+  object-fit: cover;
+  display: float;
+  margin-left: 38px;
+  margin-right: auto;
+  
 }
 
 .lenny-images {
-background-color:#89CFF0;
+  box-sizing: border-box;
+  margin: auto;
+  width: 90%;
+  background-color:#f5dcc4;
+  border: solid;
+  border-color: #4b6337
   
+  
+}
+
+#subtitle2 {
+  text-align: left;
+  font-weight: bold;
+  font-size:40px;
+  margin-left: 100px;
+  display: block;
+  overflow: auto;
+}
+
+a {
+  color: #4b6337;
+}
+
+a:hover {
+  color: #e8f6cd;
 }
